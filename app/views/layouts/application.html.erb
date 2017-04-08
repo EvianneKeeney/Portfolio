@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
   <head>
     <title>Evi</title>
@@ -8,7 +9,8 @@
     <%= javascript_include_tag 'application' %>
   </head>
 
-  <body>
+  <body class="body">
+    <%= render 'shared/navigation' %>
     <%= yield %>
   </body>
 </html>
